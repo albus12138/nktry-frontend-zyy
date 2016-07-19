@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
+  <title>Starter Template - Materialize</title>
+
+  <!-- CSS  -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+</head>
+<body>
+  <!-- Navbar -->
+  <nav>
+    <div class="blue-grey darken-2 nav-wrapper">
+      <a href="#" class="brand-logo"><img src="logo.png" id="navbar_logo" /></a>
+      <div class="hide-on-large-only">
+        <a href="search.html"><i class="navbar_search_icon waves-effect waves-light material-icons">search</i></a>
+      </div>
+      <ul id="nav-mobile" class="right hide-on-med-and-down">
+        <li><a href="articles.html">文章</a></li>
+        <li><a href="activities.html">活动</a></li>
+        <li><a href="gallery.html">图库</a></li>
+        <li><a href="nktcv.html">NKTCV+</a></li>
+        <li><a href="groups.html">社团</a></li>
+        <li><a href="labs.html">实验室</a></li>
+        <li><a href="search.html"><i class="material-icons left">search</i>搜索 NKTC</a></li>
+      </ul>
+    </div>
+    <div class="hide-on-large-only">
+    <div class="col s12" >
+      <ul class="blue-grey darken-2 tabs">
+        <li class="tab col s3"><a class="blue-grey-text text-lighten-4" href="/articles.html">文章</a></li>
+        <li class="tab col s3"><a class="blue-grey-text text-lighten-4" href="/activities.html">活动</a></li>
+        <li class="tab col s3"><a class="blue-grey-text text-lighten-4" href="/gallery.html">图库</a></li>
+        <li class="tab col s3"><a class="blue-grey-text text-lighten-4" href="/nktcv.html">NKTCV+</a></li>
+        <li class="tab col s3"><a class="blue-grey-text text-lighten-4" href="/groups.html">社团</a></li>
+      </ul>
+      </div>
+  </nav>
+
+<div id="content-wrapper">
+  
+  <div class="row">
+    <div id="gallery_slider" class="col s12 m6 l6">
+      <h1>This is a fxxking slider.</h1>
+      </div>
+    <div id="hot_flash" class="col s12 m6 l6">
+        <div class="center-on-small-only smalltitle blue-grey darken-1 card-panel" style="margin-bottom:0">
+          全站最热
+        </div>
+      <div style="width:100%;">
+      <ul class="blue-grey darken-1 tabs z-depth-1">
+        <li class="tab col s4"><a class="blue-grey-text text-lighten-4" href="#hotarticles">文章</a></li>
+        <li class="tab col s4"><a class="blue-grey-text text-lighten-4" href="#hotactivities">活动</a></li>
+        <li class="tab col s4"><a class="blue-grey-text text-lighten-4" href="#hotlabs">实验室</a></li>
+      </ul>
+    </div>
+    <div id="hotarticles" style="margin-top:10px;">
+        <div class="blue-grey card-panel" style="width:100%;">
+          <div class="row" >
+            <div class="col s12">
+              <div class="blue-grey-text text-lighten-5" style="font-size:15px;padding-bottom:4px;">全站热度排名第 1 / 来自 XXX 社团</div>
+            </div>
+            <div class="col s12 m4">
+              <img src="placeholder.png" class="responsive-img" />
+            </div>
+            <div class="col s12 m8">
+              <div class="center-on-small-only blue-grey-text text-lighten-5" style="font-size:30px;">文章标题</div>
+              <div class="blue-grey-text text-lighten-4" style="font-size:21px;">文章摘要</div>
+            </div>
+
+          <div class="col s12"><a class="blue-grey-text text-lighten-4 waves-effect waves-light btn-flat" style="float:right;">查看更多文章</a></div>
+          </div>
+    </div>
+    </div>
+        <div id="hotactivities" style="margin-top:10px;">
+        <div class="blue-grey card-panel" style="width:100%;">
+          <div class="row" >
+            <div class="col s12">
+              <div class="blue-grey-text text-lighten-5" style="font-size:15px;padding-bottom:4px;">全站热度排名第 1 / 来自 XXX 社团</div>
+            </div>
+            <div class="col s12 m4">
+              <img src="placeholder.png" class="responsive-img" />
+            </div>
+            <div class="col s12 m8">
+              <div class="center-on-small-only blue-grey-text text-lighten-5" style="font-size:30px;">活动标题</div>
+              <div class="blue-grey-text text-lighten-4" style="font-size:21px;">活动摘要</div>
+            </div>
+
+          <div class="col s12"><a class="blue-grey-text text-lighten-4 waves-effect waves-light btn-flat" style="float:right;">查看更多活动</a></div>
+          </div>
+    </div>
+        </div>
+      <div id="hotlabs" style="margin-top:10px;">
+        <div class="blue-grey card-panel" style="width:100%;">
+          <div class="row" >
+            <div class="col s12">
+              <div class="blue-grey-text text-lighten-5" style="font-size:15px;padding-bottom:4px;">全站热度排名第 1 / 浏览量 23333</div>
+            </div>
+            <div class="col s12 m3">
+              <img src="placeholder.png" class="responsive-img" />
+            </div>
+            <div class="col s12 m9">
+              <div class="center-on-small-only blue-grey-text text-lighten-5" style="font-size:30px;">实验室名称</div>
+              <div class="blue-grey-text text-lighten-4" style="font-size:21px;">实验室简介</div>
+            </div>
+
+          <div class="col s12"><a class="blue-grey-text text-lighten-4 waves-effect waves-light btn-flat" style="float:right;">查看更多实验室</a></div>
+          </div>
+    </div>
+  </div>
+          
+      </div>
+  </div>
+<div id="article_preview z-depth-1">
+  <div class="article_list col s12">
+    <div class="row">
+      <div class="col s12 m4">
+        <img src="placeholder.png" class="article_image" />
+      </div>
+      <div class="col s12 m8">
+                      <div class="center-on-small-only blue-grey-text text-darken-5" style="font-size:40px;">文章标题</div>
+              <div class="blue-grey-text text-darken-4" style="font-size:25px;">文章简介</div>
+      </div>
+                <div class="col s12"><a class="blue-grey-text text-darken-4 waves-effect waves-dark btn-flat" style="float:right;">查看原文</a></div>
+          </div>
+    </div>
+  </div>
+</div>
+</div>
+<div id="copyright">
+  <!-- 可是我不会写 Copyright 啊 -->
+  <!-- 猴子 交给你了 -->
+  </div>
+  <!--  Scripts-->
+  <script src="js/jquery-2.1.1.min.js"></script>
+  <script src="js/materialize.js"></script>
+  <script src="js/init.js"></script>
+
+  </body>
+</html>
